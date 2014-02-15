@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @showcase.name %>
+</p>
+
+
+<p>
+  <strong>Good:</strong>
+  <%= @showcase.good %>
+</p>
+
+<p>
+  <strong>Bad:</strong>
+  <%= @showcase.bad %>
+</p>
+
+<p>
+  <strong>Uploaded dt:</strong>
+  <%= @showcase.uploaded_dt %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @showcase.url %>
+</p>
+
+<%= link_to 'Edit', edit_showcase_path(@showcase) %> |
+<%= link_to 'Back', showcases_path %>
